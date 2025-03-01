@@ -13,6 +13,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
     "@tailwindcss/vite": "^4.0.8",
     "motion": "^12.4.7",
     "react": "^19.0.0",

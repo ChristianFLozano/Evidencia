@@ -1,18 +1,20 @@
 import React from "react";
 import Header from "../Components/Header";
+import Navbar from "../Components/Navbar";
 import { motion } from "motion/react";
 export default function Presentation() {
     return ( 
     <>
         <section className="w-full h-auto">
             <Header text="Portafolio de evidencias" subtitle="Introducción"/>
+            <Navbar />
         </section>
         <main className="w-screen h-auto bg-[#fff] flex justify-center">
             <motion.div className=" w-10/12  h-8/12 p-5 mt-14 border-2 border-gray-300 rounded-2xl shadow-2xl mb-5"
             whileHover={{ scale: 1.05 }}
             initial={{opacity: 0, x: -100}}
             animate={{opacity: 1, x: 0}}
-            transition={{duration: 4.5}}
+            transition={{duration: 1.5}}
             >
                 <h3 className="text-md md:text-2xl sm:text-xl " >
                     En esta pagina se presentara el portafolio de evidencias con las actividades realizadas a lo largo del semestre. <br />
