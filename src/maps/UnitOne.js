@@ -3,6 +3,7 @@ import actividad2 from '../assets/actividad2.png';
 import actividad3 from '../assets/actividad3.png';
 import actividad4 from '../assets/actividad4.png';
 import actividad5 from '../assets/actividad5.png';
+import actividad6 from '../assets/actividad6.png';
 
 const tasks = [
     {
@@ -39,6 +40,13 @@ const tasks = [
     description: "De esta primera unidad encontramos la tarea más larga para realizar, en esta actividad la cual consta de dos partes, la primera es la investigación de lo que es una maquina virtual los tipos que existen y de esto encontrar la que mejor se adapte a nuestros requisitos para la segunda parte, esta segunda parte consta en una máquina virtual crear un multiboot, es decir, añadir 3 sistemas operativos a una solo máquina y que esta tenga un menu para acceder a cada uno de ellos.",
     PDF: "https://drive.google.com/file/d/1_kJmepFCYquEnf0y7n_QxBwBx2FsJhep/view?usp=drive_link",
     img: actividad5
+    },
+    {
+    id: 6,
+    title: "Distribucuiones y licencias en un sistema operativo",
+    description: "En esta actividad lo que se basara en investigar sobre lo que es una distribución y licencia dentro de un sistema operativo, así como con ayuda de un foro dar nuestra idea para recibir y dar a cambio retroalimentación a los participantes del foro.",
+    PDF: "https://drive.google.com/file/d/10S4Zjx1DbjYQMa222Eq9chQ-8aOgX6Df/view?usp=drive_link",
+    img: actividad6
     }
 ];
 
