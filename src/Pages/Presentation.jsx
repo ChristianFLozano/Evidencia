@@ -32,6 +32,15 @@ export default function Presentation() {
                     uso de las memorias booteables, los tipos de sistemas operativos deonde se engloban temas como licencias, distrinuciones e arquitectura
                     así como maquinas virtuales y la instalación de diversos sistemas operativos dentro de ellas.
                 </h3>
+                <br />
+                <h2 className="text-lg md:text-3xl sm:text-2xl font-bold">
+                    Unidad 2. Configuración de Servicios
+                </h2>
+                <h3 className="text-md md:text-2xl sm:text-xl " >
+                En esta segunda unidad se vieron los temas relacionados con la exclusion mutua, concurrencia, sincronización
+                y problemas de control que ocurren en nuestro sistema operativo y como se solucionan asi como nosotros tuvimos
+                tuvimos que conocerlos y resolver dos problemas (producto-consumidor y filosofos)
+                </h3>
 
             </motion.div>
         </main>

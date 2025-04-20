@@ -22,6 +22,13 @@ export default function Navbar() {
                 >
                     Unidad 1
                 </NavLink>
+                <NavLink
+                    className={`text-white text-lg md:text-2xl sm:text-xl font-bold p-2 hover:text-gray-300 transition-colors duration-300 ${location.pathname === '/unidaddos' ? 'underline' : ''}`}
+                    to="/unidaddos"
+                    end
+                >
+                    Unidad 2
+                </NavLink>
             </nav>
         </>
     );
