@@ -2,12 +2,20 @@ import React from "react";
 import Header from "../Components/Header";
 import Navbar from "../Components/Navbar";
 import { motion } from "motion/react";
+import { useEffect } from "react";
 export default function Presentation() {
+
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    })
+
     return ( 
     <>
         <section className="w-full h-auto">
             <Header text="Portafolio de evidencias" subtitle="Introducción"/>
-            <Navbar />
+        </section>
+        <section className="sticky top-0 z-10 w-full h-auto">
+            <Navbar  />
         </section>
         <main className="w-screen h-auto bg-[#fff] flex justify-center">
             <motion.div className=" w-10/12  h-8/12 p-5 mt-14 border-2 border-gray-300 rounded-2xl shadow-2xl mb-5"

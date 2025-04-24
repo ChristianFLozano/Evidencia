@@ -3,13 +3,23 @@ import Header from "../Components/Header";
 import Navbar from "../Components/Navbar";
 import tasks from "../maps/UnitOne";
 import TaskCard from "../Components/TaskCard";
+import { useEffect } from "react";
 
 export default function UnitOne() {
+    
+    
+    useEffect(()=>{
+            window.scrollTo(0, 0);
+        })
+    
+
     return(
         <>
             <section className="w-full h-auto">
-                        <Header text="Portafolio de evidencias" subtitle="Unidad 1"/>
-                        <Navbar />
+                <Header text="Portafolio de evidencias" subtitle="Unidad 1"/>        
+            </section>
+            <section className="sticky top-0 z-10 w-full h-auto">
+                <Navbar  />
             </section>
             <ul className="w-full h-auto flex flex-wrap justify-center">
                 {
