@@ -2,6 +2,7 @@ import actividad8 from "../assets/actividad8.png"
 import actividad9 from "../assets/actividad9.png"
 import actividad10 from "../assets/actividad10.png"
 import actividad11 from "../assets/actividad11.png"
+import actividad12 from "../assets/actividad12.png"
 const tasks = [
     {
         id:0,
@@ -30,6 +31,13 @@ const tasks = [
         description:"En esta actividad se presentó un programa donde el productor genera datos y el consumidor los utiliza, pero ambos deben trabajar sobre un espacio compartido sin provocar errores ni interferencias.",
         PDF:"https://drive.google.com/file/d/1YZCRxJCn5d6QrbQe1M0PA1MyGp2khKlF/view?usp=drive_link",
         img: actividad11
+    },
+    {
+        id:4,
+        title:"Soluciones al interbloqueo (Filósofos)",
+        description:"En esta actividad se presentó un programa donde teniamos que gestiar el interbloqueo en el reto de programación de los filósofos",
+        PDF:"https://drive.google.com/file/d/16eb2Q453pgATHjxWZMB4MHayaq8TX-EK/view?usp=sharing",
+        img: actividad12
     }
 ]
 
