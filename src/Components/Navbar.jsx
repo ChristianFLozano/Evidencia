@@ -30,6 +30,13 @@ export default function Navbar() {
                 >
                     Unidad 2
                 </NavLink>
+                <NavLink
+                    className={`text-white text-lg md:text-2xl sm:text-xl font-bold p-2 hover:text-gray-300 transition-colors duration-300 ${location.pathname === '/unidadtres' ? 'underline' : ''}`}
+                    to="/unidadtres"
+                    end
+                >
+                    Unidad 3
+                </NavLink>
             </nav>
         </>
     );
