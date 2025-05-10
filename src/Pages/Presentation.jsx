@@ -17,7 +17,7 @@ export default function Presentation() {
         <section className="sticky top-0 z-10 w-full h-auto">
             <Navbar  />
         </section>
-        <main className="w-screen h-auto bg-[#fff] flex justify-center">
+        <main className="w-full h-auto bg-[#fff] flex justify-center">
             <motion.div className=" w-10/12  h-8/12 p-5 mt-6 border-2 border-gray-300 
             rounded-2xl shadow-2xl mb-5 shadow-neutral-600"
             initial={{opacity: 0, x: -100}}
