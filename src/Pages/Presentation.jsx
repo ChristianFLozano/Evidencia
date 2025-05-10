@@ -52,7 +52,13 @@ export default function Presentation() {
                 </h3>
                 <hr/>
                 <br />
-                
+                <h2 className="text-lg md:text-3xl sm:text-2xl font-bold">
+                    Unidad 3. Optimización
+                </h2>
+                <h3 className="text-md md:text-2xl sm:text-xl " >
+                En esta última unidad se explica el funcionamiento de los procesos e hilos dentro del sistema operativo, así como su codificación en la resolución de distintos problemas 
+                de concurrencia y la configuración de servicios.
+                </h3>
 
             </motion.div>
         </main>
