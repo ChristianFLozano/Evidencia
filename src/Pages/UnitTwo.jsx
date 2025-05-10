@@ -50,11 +50,11 @@ export default function UnitTwo(){
                     })
                 }
             </ul>
-            <header className="w-full h-auto flex justify-center items-center bg-black text-white p-4 text-2xl sm:text-3xl lg:text-4xl shadow-lg">
-                <h3>Conclución de la segunda unidad</h3>
+            <header className="bg-gray-950 w-full h-auto flex justify-center items-center sticky top-18 z-10 text-white p-4 text-2xl sm:text-3xl lg:text-4xl shadow-lg">
+                <h3>Conclusión de la segunda unidad</h3>
             </header>
             <main className="p-8 text-xl md:text-2xl lg:text-3xl md:text-justify ">
-                <div className="shadow-2xl border-0.2 border-neutral-950 p-6 md:m-6 rounded-lg">
+                <div className="shadow-2xl shadow-neutral-600 border-0.2 border-neutral-950 lg:p-20 p-6 md:m-6 rounded-lg">
                     <p>
                         Respecto a esta segunda unidad se profundizo más a detalle como es el funcionamiento de los procesos e hilos dentro
                         de nuestros sistemas operativos ya que varias actividades se contemplo el uso de hilos en lenguajes de programación. <br />

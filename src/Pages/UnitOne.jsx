@@ -52,11 +52,11 @@ export default function UnitOne() {
                     })
                 }
             </ul>
-            <header className="w-full h-auto flex justify-center items-center bg-black text-white p-4 text-2xl sm:text-3xl lg:text-4xl shadow-lg">
-                <h3>Conclución de la primera unidad</h3>
+            <header className="bg-gray-950 w-full h-auto flex justify-center items-center sticky top-18 z-10 text-white p-4 text-2xl sm:text-3xl lg:text-4xl shadow-lg">
+                <h3>Conclusión de la primera unidad</h3>
             </header>
             <main className="p-8 text-xl md:text-2xl lg:text-3xl text-justify ">
-                <div className="shadow-2xl border-0.2 border-neutral-950 p-6 md:m-6 rounded-lg">
+                <div className="shadow-2xl shadow-neutral-600 lg:p-20 border-0.2 border-neutral-950 p-6 md:m-6 rounded-lg">
                     <p>
                     Respecto a las actividades de esta primera unidad creo firmemente que nos ayuda a sentar las bases básicas de lo 
                     que es un sistema operativo, como estos se conforman y actividades prácticas que pueden ser de gran utilidad tales 
