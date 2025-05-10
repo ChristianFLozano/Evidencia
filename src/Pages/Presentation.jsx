@@ -18,11 +18,11 @@ export default function Presentation() {
             <Navbar  />
         </section>
         <main className="w-screen h-auto bg-[#fff] flex justify-center">
-            <motion.div className=" w-10/12  h-8/12 p-5 mt-14 border-2 border-gray-300 rounded-2xl shadow-2xl mb-5"
-            whileHover={{ scale: 1.05 }}
+            <motion.div className=" w-10/12  h-8/12 p-5 mt-6 border-2 border-gray-300 
+            rounded-2xl shadow-2xl mb-5 shadow-neutral-600"
             initial={{opacity: 0, x: -100}}
             animate={{opacity: 1, x: 0}}
-            transition={{duration: 1.5}}
+            transition={{duration: 1}}
             >
                 <h3 className="text-md md:text-2xl sm:text-xl " >
                     En esta pagina se presentara el portafolio de evidencias con las actividades realizadas a lo largo del semestre. <br />
@@ -40,6 +40,7 @@ export default function Presentation() {
                     uso de las memorias booteables, los tipos de sistemas operativos deonde se engloban temas como licencias, distrinuciones e arquitectura
                     así como maquinas virtuales y la instalación de diversos sistemas operativos dentro de ellas.
                 </h3>
+                <hr/>
                 <br />
                 <h2 className="text-lg md:text-3xl sm:text-2xl font-bold">
                     Unidad 2. Configuración de Servicios
@@ -49,6 +50,9 @@ export default function Presentation() {
                 y problemas de control que ocurren en nuestro sistema operativo y como se solucionan asi como nosotros tuvimos
                 tuvimos que conocerlos y resolver dos problemas (producto-consumidor y filosofos)
                 </h3>
+                <hr/>
+                <br />
+                
 
             </motion.div>
         </main>
