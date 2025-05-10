@@ -43,7 +43,7 @@ const tasks = [
     },
     {
     id: 6,
-    title: "Distribucuiones y licencias en un sistema operativo",
+    title: "Distribuciones y licencias en un sistema operativo",
     description: "En esta actividad lo que se basara en investigar sobre lo que es una distribución y licencia dentro de un sistema operativo, así como con ayuda de un foro dar nuestra idea para recibir y dar a cambio retroalimentación a los participantes del foro.",
     PDF: "https://drive.google.com/file/d/10S4Zjx1DbjYQMa222Eq9chQ-8aOgX6Df/view?usp=drive_link",
     img: actividad6

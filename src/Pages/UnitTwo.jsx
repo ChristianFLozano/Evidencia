@@ -2,7 +2,8 @@ import React, { use } from "react";
 import Header from "../Components/Header";
 import Navbar from "../Components/Navbar";
 import tasks from "../maps/UnitTwo";
-import TaskCard from "../Components/TaskCard";
+import TaskCardMobile from "../Components/TaskCardMobile";
+import TaskCardDesktop from "../Components/TaskCardDesktop";
 import { useEffect } from "react";
 
 export default function UnitTwo(){
@@ -19,11 +20,26 @@ export default function UnitTwo(){
             <section className="sticky top-0 z-10 w-full h-auto">
                 <Navbar  />
             </section>
-            <ul className="w-full h-auto flex flex-wrap justify-center">
+            <ul className="w-full h-auto flex flex-wrap justify-center lg:hidden">
                 {
                     tasks.map(task=>{
                         return(
-                            <TaskCard 
+                            <TaskCardMobile
+                                key={task.id} 
+                                title={task.title}
+                                description={task.description}
+                                img={task.img}
+                                PDF={task.PDF}
+                            />
+                        )
+                    })
+                }
+            </ul>
+            <ul className="w-full h-auto lg:flex flex-wrap justify-center hidden">
+                {
+                    tasks.map(task=>{
+                        return(
+                            <TaskCardDesktop
                                 key={task.id} 
                                 title={task.title}
                                 description={task.description}
